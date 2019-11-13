@@ -14,7 +14,7 @@ input.addEventListener("keyup", (e)=>{
                 $(".appended").remove();
                 break;
             case 'help':
-                    $("#block").append('<div class="appended" id="help"><div class="line">root@desktop:<span class="tylda">~</span><span class="dolar">$</span><span class="command">&nbsp;help</span></div><p>GNU bash, wersja 5.0.3 - release (x86_64-pc-linux-gnu)</p> <p>Zobacz polecenia powłoki przy pomocy polecenia help.</p> <br> <p>clear - polecenie czyszczące ekran.</p> <p>shutdown now - wyłącza system</p> <p>basic_info - podstawowe informacje nt. systemu GNU/Linux.</p> <p>tux - informacje o maskotce linuxa</p><p>history - historia projektu</p><p>usage - zastosowanie linuxa</p><p>interface - interfejsy, w jakie może być wyposarzony GNU/Linux<p>cat /usr/share/doc/*/copyright - prawa autorskie </div>');
+                    $("#block").append('<div class="appended" id="help"><div class="line">root@desktop:<span class="tylda">~</span><span class="dolar">$</span><span class="command">&nbsp;help</span></div><p>GNU bash, wersja 5.0.3 - release (x86_64-pc-linux-gnu)</p> <p>Zobacz polecenia powłoki przy pomocy polecenia help.</p> <br> <p>clear - polecenie czyszczące ekran.</p> <p>shutdown now - wyłącza system</p> <p>basic_info - podstawowe informacje nt. systemu GNU/Linux.</p> <p>tux - informacje o maskotce linuxa</p><p>history - historia projektu</p><p>usage - zastosowanie linuxa</p><p>interface - interfejsy, w jakie może być wyposażony GNU/Linux<p>cat /usr/share/doc/*/copyright - prawa autorskie </div>');
                     $('html, body').scrollTop($(document).height());
                     break;
             case 'basic_info':
